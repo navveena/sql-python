@@ -1,0 +1,12 @@
+import re
+str1="0123467 down street"
+
+mat1=re.findall("[01234]",str1)
+
+print(mat1)
+
+if mat1:
+    print("yes the numbers are available")
+else:
+    print("no matching records found")
+    

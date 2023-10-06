@@ -1,0 +1,12 @@
+import re
+str1="welcome to python class"
+
+mat1=re.sub("\s","#",str1)
+
+mat11=re.sub("\s","=",str1)
+
+mat12=re.sub("\s","$",str1)
+
+print(mat1)
+print(mat11)
+print(mat12)

@@ -1,0 +1,12 @@
+import re
+str1="lockdown is going to released shortly in many parts of the world"
+
+mat1=re.findall("go",str1)
+print(mat1)
+
+mat11=re.findall("world",str1)
+print(mat11)
+
+mat12=re.findall("school",str1)
+
+print(mat12)
